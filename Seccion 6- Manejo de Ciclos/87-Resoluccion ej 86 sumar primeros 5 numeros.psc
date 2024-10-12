@@ -1,20 +1,25 @@
 Algoritmo Sumar_Primer5_Numeros
 	//sumar los primeros 5 numeros
 	//Variables acumuladores
-	Definir numero_var,acumulador_suma Como Entero
+	Definir numero_var , acumulador_suma Como Entero
 	
-	//Iniciar variable acumulador sum
+	//Iniciar variable acumulador acumulador sum
 	acumulador_suma=0
 	
-	Para numero_var = 1 Hasta 5 Con Paso 1 Hacer
-		//Imprimir lo que se va a sumar
-		Imprimir "(acumulador+numero_var) =  ", acumulador_suma, " + ", numero_var
-		//Realizamos suma parcial
+	
+	Para numero_var= 1  Hasta 5 Con Paso 1 Hacer
+		
+		//Imprimimos lo que se suma
+		Imprimir "(Acumulador_Suma + numero_var) = " ,acumulador_suma ,"(+)", numero_var
+		
+		//Se realiza la suma parcial 
 		acumulador_suma = acumulador_suma + numero_var
 		
-		//Imprimir la suma parcial 
-		Imprimir "Suma Parcial Acumulada : " ,acumulador_suma
-	FinPara
-	//Imprimimos la suma total acumulada
-	Imprimir "Suma acumulada de los 5 primeros numeros : " ,acumulador_suma
+		//Imprimimos suma parcial
+		Imprimir "Suma Parcial : " ,acumulador_suma
+		
+	Fin Para
+	
+	Imprimir "Suma Total es : " , acumulador_suma
+	
 FinAlgoritmo

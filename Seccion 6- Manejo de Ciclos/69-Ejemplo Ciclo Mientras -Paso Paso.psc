@@ -11,7 +11,8 @@ Algoritmo PasoPaso
 		//Evaluar la condicion
 		//Condicion = Si el num contado es (MENOR ) a numero_repeticion
 		condicion=contado < numero_repeticion
-		Imprimir contado , " < " , numero_repeticion , " = " ,condicion
+		Imprimir  contado , " < " , numero_repeticion , " = " ,condicion
 		
 	FinMientras
+	
 FinAlgoritmo

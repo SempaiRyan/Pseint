@@ -1,12 +1,14 @@
 Algoritmo SUMARACULUMADORA_86
 	//SUMA ITERATIVA-ACUMULATIVA EN EL CICLO Para 
-	Definir numeros,acumulador_suma Como Entero
-	acumulador_suma=0
-	Para numeros=1 Hasta 5 Con Paso 1 Hacer
-		Imprimir "Evaluacion Suma : ",acumulador_suma, " + " ,numeros
-		acumulador_suma = acumulador_suma + numeros
+	Definir numero_var , acumuladora_sum Como Entero
+	acumuladora_sum=0
+	Para numero_var=1 Hasta 5 Con Paso 1 Hacer
 		
-		Imprimir "Suma Parcial Acumulada : " , acumulador_suma
+		Imprimir "Evaluacion Suma es : " , acumuladora_sum , "(+) " , numero_var
+		acumuladora_sum = acumuladora_sum + numero_var
+		Imprimir "Suma Parcial Acumulada : " ,acumuladora_sum
+		
 	Fin Para
-	Imprimir "La suma Acumulada de los 5 Prim Numeros es : " ,acumulador_suma
+	Imprimir "La suma Total Acumulada de los 5 numero es : " ,acumuladora_sum
+	
 FinAlgoritmo

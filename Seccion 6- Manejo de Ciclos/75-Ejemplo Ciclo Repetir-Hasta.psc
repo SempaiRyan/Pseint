@@ -1,14 +1,17 @@
 Algoritmo RepetirHasta_Condicion_Verdadera
 	//Validar que usuario de valor positivo
-	Repetir
-		
-		Imprimir "Proporciona Num Positivo : "
-		Leer Num
-		Imprimir "Condicion Evaluar : ",Num , "  > 0 = " , Num >0
-		
-	Hasta Que Num >0
 	
-	//Salimos del Ciclo
-	Imprimir "Valor Positivo : " , Num
-
+	Repetir
+		Imprimir "Proporciona Numero (+) : " 
+		Leer numero_var
+		
+		Imprimir "Condicion Evaluar : " , numero_var , " >0 =  "  , numero_var > 0 
+	Hasta Que numero_var >  0
+	
+	//Salimos del ciclo
+	Imprimir "Valor (+) : " , numero_var
+	
+	
+	
+	
 FinAlgoritmo

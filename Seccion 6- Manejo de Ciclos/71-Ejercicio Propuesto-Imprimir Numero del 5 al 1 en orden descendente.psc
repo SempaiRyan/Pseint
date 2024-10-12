@@ -1,15 +1,11 @@
 Algoritmo CicloHacerImpresionNumeros_71
-	//Manera Ascendente
-	
-	Definir  contador,maximo Como Entero
-	contador=0
-	maximo=5
-	
-	//Ciclo HHacer
-	Mientras contador <= maximo Hacer
-		Imprimir "El numero es : ", contador
-		contador=contador+1
-		
-	Fin Mientras
+	//Imprimir del 5 al 1 sin incluir al 0 Manera Ascendente
+	Definir  minimo , contadores Como Entero
+	minimo= 1
+	contadores = 5
+	Mientras contadores >= minimo Hacer
+		Imprimir "Contador en =  "   ,  contadores
+		contadores = contadores - 1
+	FinMientras
 	
 FinAlgoritmo
