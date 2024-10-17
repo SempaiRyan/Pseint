@@ -1,5 +1,6 @@
-Algoritmo ManejoArreglos_98
+Algoritmo Declaracion_Arreglos
 	//un arreglo es un conjunto de elementos que accedemos con el mismo nombre
+	
 	Definir  nume_arreglo Como Entero
 	
 	Dimension nume_arreglo[5]
@@ -10,4 +11,5 @@ Algoritmo ManejoArreglos_98
 	nume_arreglo[4] =62
 	
 	Imprimir  nume_arreglo[1]
+	
 FinAlgoritmo
