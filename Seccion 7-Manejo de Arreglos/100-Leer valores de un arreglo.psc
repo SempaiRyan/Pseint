@@ -14,12 +14,12 @@ Algoritmo Arreglos_100
 	Imprimir  nume_arreglo[2] //El arreglo se imprime 0 (Ya que no se a asignado un valor al arreglo dentro de los indices)
 	Imprimir "............"
 	
-	
-	//Iterar los valores del arreglo
-	Para indice = 0  Hasta 4 Con Paso 1 Hacer
-		Imprimir "Valor [",indice ,"]  = ",nume_arreglo[indice]
-		
+	//Iterar valores del arreglo
+	Para i=0 Hasta 4 Con Paso 1 Hacer
+		Imprimir "Valor del Indice del Arreglo : [", i , "] = ", nume_arreglo[i]
 	FinPara
 	
 	
+	
+
 FinAlgoritmo
