@@ -1,6 +1,6 @@
 # Pseint-Ruta-de-Logica
-Curso de Logica de Programacion con Pseint
-Este sera una ruta del curso de Ubaldo Acosta en Undemy sobre la Logica de Programacion en Pseint.
+#Curso de Logica de Programacion con Pseint
+#Este sera una ruta del curso de Ubaldo Acosta en Undemy sobre la Logica de Programacion en Pseint.
 
 # 1-Seccion 1 Introducciona Pseint unos breves ejercicios basicos
 # 2-Seccion 2 Introduccion uso de programa de Pseint y unos breve ejercicios de explicacion

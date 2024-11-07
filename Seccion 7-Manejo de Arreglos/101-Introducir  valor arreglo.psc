@@ -32,4 +32,5 @@ Algoritmo numero_elementos
 	Para  i = 0 Hasta num_elementos - 1 Hacer
 		Imprimir i +1 , "Valor [",i,"] = ", numeros[i]
 	FinPara
+	
 FinAlgoritmo

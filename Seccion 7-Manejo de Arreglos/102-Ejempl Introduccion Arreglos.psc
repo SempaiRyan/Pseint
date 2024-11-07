@@ -22,6 +22,6 @@ Algoritmo Intro_Valores_Arreglos
 	//Mostramos elementos
 	Imprimir "Valores almacenador en el Arreglo. "
 	Para i = 0 Hasta  numero_elementos - 1 Hacer
-		Imprimir i + 1 ,"Valor [" , i ",]  = " , numeros[i]
+		Imprimir i + 1 ,"Valor [" i ",]  = " , numeros[i]
 	FinPara
 FinAlgoritmo
